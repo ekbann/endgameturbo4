@@ -1,4 +1,4 @@
-# endgameturbo4
+# Endgame Turbo 4
 Syzygy Tablebases from ChessBase Endgame Turbo 4
 
 First and foremost, this github repository does NOT host any ChessBase products. Please support them by buying their amazing products especially Fritz and ChessBase (database).
