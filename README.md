@@ -9,4 +9,6 @@ The total size of all files adds up to 19GB and should be in 346 DTZ and WDL fil
 
 This script was created on a Linux machine and runs on *bash* and *zsh* shells. macOS users need to install **brew** and then execute **brew install md5sha1sum** for the needed **md5sum** command in order to check the files' integrity. Make sure the script is executable, if not, run **chmod +x syzygy.sh** and now run it with **./syzygy.sh**
 
+The main ***BENEFIT*** of this script is that if the download is interrupted for any reason, re-running the script again will CONTINUE from where it left off, without re-downloading existing files, and thus save precious time.
+
 Enjoy!
