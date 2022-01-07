@@ -3,7 +3,7 @@ Syzygy Tablebases from ChessBase Endgame Turbo 4
 
 First and foremost, this github repository does NOT host any ChessBase products. Please support them by buying their amazing products especially Fritz and ChessBase (database).
 
-The script contained here simply downloads all the freely generated DTZ and WDL tablebases from **tablebase.sesse.net** provided by the ever generous Mr. Steinar Gunderson. All the files are downloaded into the directory *syzygy* created where the script is run. This script does not perform multiple simultaneous downloads and therefore does not break any server rules on the usage of *download accelerators*.
+The script contained here simply downloads all the freely generated DTZ and WDL tablebases from **tablebase.sesse.net** provided by the ever generous Mr. Steinar Gunderson. All the files are downloaded into one directory *syzygy* created where the script is run. This script does not perform multiple simultaneous downloads and therefore does not break any server rules on the usage of *download accelerators*.
 
 The total size of all files adds up to 19GB and should be in 346 DTZ and WDL files. There is also the MD5 checksum file as well. On a fast Internet connection it took less than an hour to download the entire set. Even if your ChessBase database program does not directly support syzygy tables (requires ChessBase 13+) you can still access them via the *Stockfish* chess engine. Currently, I am using ChessBase 9 with Stockfish 12.
 
