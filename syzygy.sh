@@ -1,9 +1,9 @@
 #!/bin/bash
 
+# Written by: Ellery K. Bann (2022)
 #
-# Free version of:
-# ChessBase Endgame Turbo 4 (18GB of Syzygy Tablebases)
-# plus KRBvKNN from Endgame Turbo 3 (an extra 1GB)
+# Free version of ChessBase Endgame Turbo 4 (18GB of Syzygy Tablebases)
+# plus 6-pieces KRBvKNN tables from Endgame Turbo 3 (an extra 1GB)
 #
 
 DVD1='KNPPvKB KNPPvKN KNPPvKR KNPvKNP KNPvKPP KPPPvKQ'
