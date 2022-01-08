@@ -11,7 +11,7 @@ This script was created on a Linux machine and runs on *bash* and *zsh* shells a
 
 ```brew install md5sha1sum```
 
-for the needed **md5sum** command in order to check the files' integrity. Make sure my script is executable, if not, run:
+for the needed *md5sum* command in order to check the files' integrity. Make sure my script is executable, if not, run:
 
 ```chmod +x syzygy.sh```
 
@@ -19,9 +19,9 @@ and then run it with:
 
 ```./syzygy.sh```
 
-The main ***BENEFIT*** of this script is that if the download is interrupted for any reason, re-running the script again will CONTINUE from where it left off, without re-downloading existing files, and thus save precious time.
+The main **BENEFIT** of this script is that if the download is interrupted for any reason, re-running the script will **CONTINUE** from where it left off, without downloading again the existing files, and thus save precious time.
 
 Enjoy!
 
-##### ERRATA:
-The existing *3-4-5-6.md5* checksum file dated 2022-01-07 has incorrect signatures for the updated ```K[RQP]vK``` (3-piece) tables and may display 6 FAILED checksums. You may safely ignore theses errors until Mr. Steinar fixes them.
+### ERRATA:
+The existing *3-4-5-6.md5* checksum file dated 2022-01-07 has incorrect signatures for the updated **K[RQP]vK** (3-piece) tables and may display 6 FAILED checksums. You may safely ignore theses errors until Mr. Steinar fixes them.
