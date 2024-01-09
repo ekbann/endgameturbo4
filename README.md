@@ -27,8 +27,10 @@ The main **BENEFIT** of this script is that if the download is interrupted for a
 
 I have written a new script that will download the additional 6-pieces syzygy tablebases from Endgame Turbo 5 into the *syzygy* directory. The final size would then be 114.4 GB (119,878,784 bytes). Run the commands below:
 
-```chmod +x update.sh```
-```./update.sh```
+```
+chmod +x update.sh
+./update.sh
+```
 
 Enjoy!
 
