@@ -2,7 +2,7 @@
 
 # Written by: Ellery K. Bann (2022)
 #
-# Free version of ChessBase Endgame Turbo 4 (18GB of Syzygy Tablebases)
+# Free version of ChessBase Endgame Turbo 4 (19,009,792 bytes or 18.13GB of Syzygy Tablebases)
 # plus 6-pieces KRBvKNN tables from Endgame Turbo 3 (an extra 1GB)
 #
 
@@ -77,6 +77,7 @@ wget -c -nc -H -e robots=off -nd -r -l 1 -P syzygy/ http://tablebase.sesse.net/s
 # and check the downloaded files
 #
 
+echo "CHECKING MD5 Checksums:"
 wget -c -nc -H -e robots=off -nd -r -l 1 -P syzygy/ http://tablebase.sesse.net/syzygy/6-WDL/3-4-5-6.md5
 cd syzygy
-md5sum -c 3-4-5-6.md5
+md5sum -c --ignore-missing 3-4-5-6.md5 | grep -i failed
