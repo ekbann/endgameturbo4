@@ -43,7 +43,7 @@ Sometimes the tablebases themselves have errors and are later re-generated corre
 
 ## Are Tablebases Beneficial?
 
-Yes they are! Believe it or not, *Stockfish* alone could not win more than one-third of 100 selected winning 6-pieces endgames. Tablebases add roughly 35-40 Elo points to the engine. Given this position (FEN) from Tiviakov-Korsunsky, 1989:
+Yes they are! Believe it or not, *Stockfish* alone could not win against the tablebase more than one-third of 100 selected winning 6-pieces endgames. Tablebases add roughly 35-40 Elo points to the engine. Given this position (FEN) from Tiviakov-Korsunsky, 1989:
 
 ```8/1k6/p7/1pb2K1R/8/P7/1P6/8 w - - 0 45```
 
