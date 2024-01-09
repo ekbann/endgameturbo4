@@ -36,3 +36,15 @@ Enjoy!
 
 ### ERRATA:
 The existing *3-4-5-6.md5* checksum file dated 2022-01-07 has incorrect signatures for the updated **K[RQP]vK** (3-piece) tables and may display 6 FAILED checksums. You may safely ignore theses errors until Mr. Steinar fixes them.
+
+Sometimes the tablebases themselves have errors and are later re-generated correctly. In that case, periodically download the latest MD5 checksum files and run:
+
+```md5sum -c --ignore-missing 3-4-5-6.md5 | grep -i failed```
+
+## Are Tablebases Beneficial?
+
+Yes they are! Believe it or not, *Stockfish* alone could not win more than one-third of 100 selected winning 6-pieces endgames. Tablebases add roughly 35-40 Elo points to the engine. Given this position (FEN) from Tiviakov-Korsunsky, 1989:
+
+```8/1k6/p7/1pb2K1R/8/P7/1P6/8 w - - 0 45```
+
+For years, theory declared this position a draw and that it was a fortress. Thanks to the endgame tablebases this theory was disproved and a solution was published.  Needless to say, without tablebases the engines fail to see the winning line even after five full minutes on it, whereas with tablebases it is found in seconds. 
