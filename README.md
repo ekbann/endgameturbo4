@@ -41,6 +41,8 @@ Sometimes the tablebases themselves have errors and are later re-generated corre
 
 ```md5sum -c --ignore-missing 3-4-5-6.md5 | grep -i failed```
 
+If there are any errors simply re-download those offending files and you're all set!
+
 ## Are Tablebases Beneficial?
 
 Yes they are! Believe it or not, *Stockfish* alone could not win against the tablebase more than one-third of 100 selected winning 6-pieces endgames. Tablebases add roughly 35-40 Elo points to the engine. Given this position (FEN) from Tiviakov-Korsunsky, 1989:
