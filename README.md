@@ -11,15 +11,15 @@ If you insist in using older *ChessBase* database programs without syzygy suppor
 
 This script was created on a Linux machine and runs on *bash* and *zsh* shells and requires *wget* and *md5sum* commands. macOS users need to install *brew* and then execute:
 
-```brew install md5sha1sum```
+`brew install md5sha1sum`
 
 for the needed *md5sum* command in order to check the files' integrity. Make sure my script is executable, if not, run:
 
-```chmod +x syzygy.sh```
+`chmod +x syzygy.sh`
 
 and then run it with:
 
-```./syzygy.sh```
+`./syzygy.sh`
 
 The main **BENEFIT** of this script is that if the download is interrupted for any reason, re-running the script will **CONTINUE** from where it left off, without downloading again the existing files, and thus save precious time.
 
@@ -39,7 +39,7 @@ The existing *3-4-5-6.md5* checksum file dated 2022-01-07 has incorrect signatur
 
 Sometimes the tablebases themselves have errors and are later re-generated correctly. In that case, periodically download the latest MD5 checksum files and run:
 
-```md5sum -c --ignore-missing 3-4-5-6.md5 | grep -i failed```
+`md5sum -c --ignore-missing 3-4-5-6.md5 | grep -i failed`
 
 If there are any errors simply re-download those offending files and you're all set!
 
@@ -47,6 +47,6 @@ If there are any errors simply re-download those offending files and you're all 
 
 Yes they are! Believe it or not, *Stockfish* alone could not win against the tablebase more than one-third of 100 selected winning 6-pieces endgames. Tablebases add roughly 35-40 Elo points to the engine. Given this position (FEN) from Tiviakov-Korsunsky, 1989:
 
-```8/1k6/p7/1pb2K1R/8/P7/1P6/8 w - - 0 45```
+`8/1k6/p7/1pb2K1R/8/P7/1P6/8 w - - 0 45`
 
 For years, theory declared this position a draw and that it was a fortress. Thanks to the endgame tablebases this theory was disproved and a solution was published.  Needless to say, without tablebases the engines fail to see the winning line even after five full minutes on it, whereas with tablebases it is found in seconds. 
